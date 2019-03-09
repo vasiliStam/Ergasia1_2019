@@ -1,0 +1,52 @@
+body {
+  background: #FFF8DC;
+  font-family: sans-serif;
+}
+.wrap {
+  width: 650px;
+  margin: auto;
+}
+
+.navi ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+.navi li {
+  float: left;
+  border-right: 1px solid #bbb;
+}
+
+.navi li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.navi li a:hover {
+  background-color: #111;
+}
+
+img {
+  width:300px;
+  height:300px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid black;
+}
+
+.contactV {
+  float: left;
+  width: 50%;
+}
+
+.contactA {
+  float: right;
+   width: 50%;
+}
